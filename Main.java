@@ -40,9 +40,9 @@ public class Main extends Titulo {
 
 
         Jogo jogo = new Jogo();
-        jogo.setNome("Silent Hill 2 Remake");
-        jogo.setPlataforma("PS5 e PC");
-        jogo.setGenero("Survival Horror");
+        jogo.setNome("Halo Infinite");
+        jogo.setPlataforma("Xbox e PC");
+        jogo.setGenero("FPS, ficção científica ");
         jogo.avalia(9);
         jogo.avalia(8);
         jogo.avalia(7);
