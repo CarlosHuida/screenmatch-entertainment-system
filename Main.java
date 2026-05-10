@@ -1,6 +1,5 @@
 package br.com.Carlos.ScreeanMatch.Modelos;
 
-import br.com.Carlos.ScreeanMatch.Calculos.CalculadoraDeTempo;
 
 public class Main extends Titulo {
 
@@ -8,7 +7,6 @@ public class Main extends Titulo {
     static void main(String[] args) {
 
         filtroRecomendacao filtro = new filtroRecomendacao();
-
         Filme filme = new Filme();
         filme.setNome("O poderoso Chefao");
         filme.setAnoDeLancamento(1970);
@@ -23,7 +21,7 @@ public class Main extends Titulo {
         System.out.println("A media do filme e :" + filme.pegaMedia());
         filtro.filtro(filme);
 
-        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+
 
         Serie serie = new Serie();
         serie.setNome("Breaking Bad");
